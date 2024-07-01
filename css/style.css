@@ -48,6 +48,8 @@
   padding: 1.2rem;
   font-weight: 600;
   color: #fff;
+
+  transition: all 0.3s;
 }
 
 .main-nav-link.nav-cta:hover,
@@ -90,6 +92,8 @@
   color: #fff;
   font-size: 1.8rem;
   font-weight: 600;
+
+  transition: all 0.3s;
 }
 
 .btn:hover,
@@ -101,6 +105,8 @@
 .brn.learn-more:visited {
   background-color: #e7f4e7;
   color: #444;
+
+  transition: all 0.3s;
 }
 
 .btn.learn-more:hover,
