@@ -69,6 +69,7 @@
 .hero {
   height: 100vh;
   align-items: center;
+  gap: 9.6rem;
 }
 
 .hero-section-text-box {
@@ -92,6 +93,7 @@
   color: #fff;
   font-size: 1.8rem;
   font-weight: 600;
+  margin-right: 1.2rem;
 
   transition: all 0.3s;
 }
@@ -102,7 +104,7 @@
 }
 
 .btn.learn-more:link,
-.brn.learn-more:visited {
+.btn.learn-more:visited {
   background-color: #e7f4e7;
   color: #444;
 
