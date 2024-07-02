@@ -69,13 +69,15 @@
 .hero {
   height: 100vh;
   align-items: center;
+}
+
+.hero.grid {
   gap: 9.6rem;
 }
 
 .hero-section-text-box {
   justify-self: center;
   /* background-color: red; */
-  padding: 2.4rem;
 }
 
 .hero-section-text {
@@ -115,4 +117,18 @@
 .brn.learn-more:active {
   background-color: #e7f4e700;
   box-shadow: inset 0 0 0 3px #e7f4e7;
+}
+
+/************************/
+/* FLOWER SPECIES */
+/************************/
+
+.flower-species-img {
+  width: 45%;
+  justify-self: center;
+}
+
+.flower-species-text {
+  font-size: 2.2rem;
+  line-height: 1.6;
 }
