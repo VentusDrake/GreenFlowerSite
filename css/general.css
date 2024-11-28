@@ -38,6 +38,25 @@ body {
   margin: 0 auto;
 }
 
+.btn:link,
+.btn:visited {
+  display: inline-block;
+  text-decoration: none;
+  padding: 1.4rem 4.2rem;
+  background-color: #129310;
+  color: #fff;
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-right: 1.2rem;
+
+  transition: all 0.3s;
+}
+
+.btn:hover,
+.btn:active {
+  background-color: #0d690c;
+}
+
 .section-intro {
   display: block;
   font-size: 1.6rem;
@@ -81,6 +100,10 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+.grid--center-h {
+  justify-items: center;
 }
 
 .center-text {
