@@ -83,6 +83,10 @@ body {
   margin-bottom: 5.4rem;
 }
 
+.margin--bottom-hg {
+  margin-bottom: 12.4rem;
+}
+
 .grid {
   display: grid;
   padding: 0 2.4rem;

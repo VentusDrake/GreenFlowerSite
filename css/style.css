@@ -310,3 +310,84 @@
   border: none;
   background-color: #063206;
 }
+
+/************************/
+/* CTA */
+/************************/
+
+.footer {
+  padding: 12.2rem;
+  border-top: 1px solid #063206;
+}
+
+.footer-socials {
+  display: flex;
+  flex-direction: column;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+}
+
+.logo--footer {
+  display: block;
+  height: 2.8rem;
+  margin-left: -0.7rem;
+  margin-bottom: 2.4rem;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  gap: 2.2rem;
+}
+
+.social-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+}
+
+.copyright {
+  width: 80%;
+  font-size: 1.4rem;
+  margin-top: auto;
+  color: #888;
+}
+
+.footer-contact-details {
+  font-style: normal;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+  width: 80%;
+}
+
+.footer-header {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.6rem;
+}
+
+.address {
+  margin-bottom: 3.6rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  color: #555;
+  font-size: 1.6rem;
+
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #333;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.8rem;
+}
