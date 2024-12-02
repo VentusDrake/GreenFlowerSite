@@ -1,0 +1,21 @@
+/*******************/
+/* BELOW 1312px */
+/*******************/
+
+@media (max-width: 82rem) {
+    html {
+        font-size: 50%;
+    }
+
+    .gallery {
+        grid-template-columns: repeat(3, 1fr);
+        padding: 3.2rem 8.2rem;
+        column-gap: 3.6rem;
+        row-gap: 3.6rem;
+    }
+
+    .gallery-item img {
+        width: 100%;
+        justify-self: center;
+      }
+}
