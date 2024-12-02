@@ -19,3 +19,47 @@
         justify-self: center;
       }
 }
+
+/*******************/
+/* BELOW 992px */
+/*******************/
+
+@media (max-width: 62rem) {
+    html {
+        font-size: 44%;
+    }
+
+    .gallery {
+        /* grid-template-columns: repeat(2, 1fr); */
+    }
+
+    .flower-species-img {
+        width: 35%;
+    }
+
+    .pricing-cards {
+        width: 100%;
+        grid-template-columns: repeat(6, 1fr);
+    }
+
+    .pricing-card-classic {
+        grid-column: 2 / 4;
+    }
+
+    .pricing-card-advanced {
+        grid-column: 4 / 6;
+    }
+
+    .pricing-card-flowerlover {
+        grid-row: 2;
+        grid-column: 3 / 5;
+    }
+
+    .secondary-heading {
+        margin-bottom: 12.6rem;
+    }
+
+    .tertiary-heading {
+        font-size: 4.8rem;
+    }
+}
