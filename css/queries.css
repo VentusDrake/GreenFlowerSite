@@ -273,3 +273,13 @@
         padding: 12.8rem 0;
     }
 }
+
+/**************************/
+/* BELOW 400px (Phones) */
+/**************************/
+
+@media (max-width: 25rem) {
+    .pricing-card-flowerlover::after {
+        right: -21%;
+    }
+}
