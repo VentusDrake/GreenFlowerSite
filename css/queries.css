@@ -199,3 +199,20 @@
         width: 55%;
     }
 }
+
+/**************************/
+/* BELOW 704px (Phones) */
+/**************************/
+
+@media (max-width: 44rem) {
+    .hero {
+        grid-template-columns: repeat(5, 1fr);
+        text-align: center;
+    }
+
+    .hero-section-text-box {
+        grid-column: 2 / 5;
+        align-self: center;
+    }
+}
+
